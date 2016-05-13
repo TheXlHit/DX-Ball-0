@@ -76,7 +76,7 @@ namespace BreakOut_01
 
         public Game1()
         {
-            BassNet.Registration("sebiharendt@hotmail.co.uk", "2X28231825312420");
+            BassNet.Registration("Username", "Register Code");
             bass = new BassWrapper();
             graphics = new GraphicsDeviceManager(this);
             graphics.HardwareModeSwitch = false;
