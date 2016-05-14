@@ -76,6 +76,8 @@ namespace BreakOut_01
 
         public Game1()
         {
+            Elements.ExternelHelperClass.RestoreDefault();
+
             BassNet.Registration("Username", "Register Code");
             bass = new BassWrapper();
             graphics = new GraphicsDeviceManager(this);
